@@ -1,4 +1,4 @@
-﻿<Type Name="Enumerable" FullName="System.Linq.Enumerable">
+<Type Name="Enumerable" FullName="System.Linq.Enumerable">
   <TypeSignature Language="C#" Value="public static class Enumerable" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit Enumerable extends System.Object" />
   <TypeSignature Language="DocId" Value="T:System.Linq.Enumerable" />
@@ -2880,7 +2880,7 @@ Dim doubles = From item As Integer In sequence
   
  [!code-csharp[CSLINQEncapsulatedComparer#9](~/samples/snippets/csharp/VS_Snippets_VBCSharp/CsLINQEncapsulatedComparer/CS/EncapsulatedComparer.cs#9)]  
   
- After you implement this interface, you can use sequences of `ProductA` objects in the <xref:System.Linq.Enumerable.Except%60%601%28System.Collections.Generic.IEnumerable%7B%60%600%7D%2CSystem.Collections.Generic.IEnumerable%7B%60%600%7D%29> method, as shown in the following example.  
+ After you implement this interface, you can use sequences of `Product` objects in the <xref:System.Linq.Enumerable.Except%60%601%28System.Collections.Generic.IEnumerable%7B%60%600%7D%2CSystem.Collections.Generic.IEnumerable%7B%60%600%7D%29> method, as shown in the following example.  
   
  [!code-csharp[CSLINQEncapsulatedComparer#7](~/samples/snippets/csharp/VS_Snippets_VBCSharp/CsLINQEncapsulatedComparer/CS/EncapsulatedComparer.cs#7)]
  [!code-vb[CSLINQEncapsulatedComparer#7](~/samples/snippets/visualbasic/VS_Snippets_VBCSharp/CsLINQEncapsulatedComparer/VB/EncapsulatedComparer.vb#7)]  
@@ -4067,7 +4067,7 @@ Dim doubles = From item As Integer In sequence
   
  [!code-csharp[CSLINQEncapsulatedComparer#9](~/samples/snippets/csharp/VS_Snippets_VBCSharp/CsLINQEncapsulatedComparer/CS/EncapsulatedComparer.cs#9)]  
   
- After you implement this interface, you can use sequences of `ProductA` objects in the <xref:System.Linq.Enumerable.Intersect%2A> method, as shown in the following example.  
+ After you implement this interface, you can use sequences of `Product` objects in the <xref:System.Linq.Enumerable.Intersect%2A> method, as shown in the following example.  
   
  [!code-csharp[CSLINQEncapsulatedComparer#10](~/samples/snippets/csharp/VS_Snippets_VBCSharp/CsLINQEncapsulatedComparer/CS/EncapsulatedComparer.cs#10)]  
 [!code-csharp[CSLINQEncapsulatedComparer#3](~/samples/snippets/csharp/VS_Snippets_VBCSharp/CsLINQEncapsulatedComparer/CS/EncapsulatedComparer.cs#3)]
@@ -8785,7 +8785,7 @@ Dim doubles = From item As Integer In sequence
   
  [!code-csharp[CSLINQEncapsulatedComparer#9](~/samples/snippets/csharp/VS_Snippets_VBCSharp/CsLINQEncapsulatedComparer/CS/EncapsulatedComparer.cs#9)]  
   
- After you implement this interface, you can use sequences of `ProductA` objects in the <xref:System.Linq.Enumerable.SequenceEqual%60%601%28System.Collections.Generic.IEnumerable%7B%60%600%7D%2CSystem.Collections.Generic.IEnumerable%7B%60%600%7D%29> method, as shown in the following example.  
+ After you implement this interface, you can use sequences of `Product` objects in the <xref:System.Linq.Enumerable.SequenceEqual%60%601%28System.Collections.Generic.IEnumerable%7B%60%600%7D%2CSystem.Collections.Generic.IEnumerable%7B%60%600%7D%29> method, as shown in the following example.  
   
  [!code-csharp[CSLINQEncapsulatedComparer#8](~/samples/snippets/csharp/VS_Snippets_VBCSharp/CsLINQEncapsulatedComparer/CS/EncapsulatedComparer.cs#8)]
  [!code-vb[CSLINQEncapsulatedComparer#8](~/samples/snippets/visualbasic/VS_Snippets_VBCSharp/CsLINQEncapsulatedComparer/VB/EncapsulatedComparer.vb#8)]  
@@ -12133,7 +12133,7 @@ Dim doubles = From item As Integer In sequence
   
  [!code-csharp[CSLINQEncapsulatedComparer#9](~/samples/snippets/csharp/VS_Snippets_VBCSharp/CsLINQEncapsulatedComparer/CS/EncapsulatedComparer.cs#9)]  
   
- After you implement this interface, you can use sequences of `ProductA` objects in the <xref:System.Linq.Enumerable.Union%60%601%28System.Collections.Generic.IEnumerable%7B%60%600%7D%2CSystem.Collections.Generic.IEnumerable%7B%60%600%7D%29> method, as shown in the following example.  
+ After you implement this interface, you can use sequences of `Product` objects in the <xref:System.Linq.Enumerable.Union%60%601%28System.Collections.Generic.IEnumerable%7B%60%600%7D%2CSystem.Collections.Generic.IEnumerable%7B%60%600%7D%29> method, as shown in the following example.  
   
  [!code-csharp[CSLINQEncapsulatedComparer#10](~/samples/snippets/csharp/VS_Snippets_VBCSharp/CsLINQEncapsulatedComparer/CS/EncapsulatedComparer.cs#10)]  
 [!code-csharp[CSLINQEncapsulatedComparer#4](~/samples/snippets/csharp/VS_Snippets_VBCSharp/CsLINQEncapsulatedComparer/CS/EncapsulatedComparer.cs#4)]
